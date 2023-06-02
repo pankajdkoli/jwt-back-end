@@ -1,0 +1,46 @@
+/* footer.css */
+.footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.footer-text {
+  margin: 10px 0;
+}
+
+.footer-links {
+  margin: 10px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+/* Additional CSS for content */
+.content {
+  padding-bottom: 80px; /* Increase the padding to create space for the footer */
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 12px;
+  }
+}
